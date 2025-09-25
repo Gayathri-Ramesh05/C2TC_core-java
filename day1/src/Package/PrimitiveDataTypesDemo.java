@@ -36,7 +36,7 @@ public class PrimitiveDataTypesDemo {
 				
 				//boolean 
 				boolean flag=false;
-				System.out.println("\nboolean value is "+flag);
+				System.out.println("\nboolean value is "+flag);ss
 	}
 
 }
