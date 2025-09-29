@@ -1,4 +1,4 @@
-package day3constructor;
+package day3.constructor;
 
 public class ConstructorDemo {
 
