@@ -1,20 +1,16 @@
 package day6.usingfinal;
 
 public class FinalMethodClass {
-	void show() {
-		System.out.println("Final class cannot be inherited");
-	}
-}
+	// constructor
+		FinalMethodClass() {
+			System.out.println("This is a default constructor");
+		}
 
-//can't create child classes from Final class, Ex: String, Wrapper Classes, System, Scanner, Number are Final classes
-class FinalChildClass extends FinalClass {
-}
+		final int a = 50;
 
-public class FinalClassDemo {
-	public static void main(String[] args) {
-		// Create the object of final class
-		FinalClass f1 = new FinalClass(); // Call show() method using object reference variable ab.
-		f1.show();
+		// Final method
+		final void show() {
+			System.out.println("Value of a: " + a);
 
-	}
+		}
 }
