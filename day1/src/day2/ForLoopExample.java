@@ -10,5 +10,6 @@ public class ForLoopExample {
 				System.out.print("Value of i:");
 				System.out.println(i);
 	}
-
+ }
+}
 }

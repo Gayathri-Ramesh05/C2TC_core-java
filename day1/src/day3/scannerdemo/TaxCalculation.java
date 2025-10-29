@@ -2,7 +2,7 @@ package day3.scannerdemo;
 
 public class TaxCalculation {
 	// function to calculate tax
-		public void calculateTax(Person person) {
+		public void calculateTax(person person) {
 			if (person.getAge() > 65 || person.getGender().equalsIgnoreCase("female")) {
 				person.setTax(0);
 				System.out.println("Tax not applicable");

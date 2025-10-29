@@ -10,7 +10,7 @@ public class Manager {
 	}
 
 	public Manager(String name, int employeeId, String department, int teamSize) {
-		super(name, employeeId, department);
+		super();
 		this.teamSize = teamSize;
 	}
 
@@ -29,5 +29,19 @@ public class Manager {
 				+ ", Department=" + getDepartment() + "]";
 	}
 
-}
+	private String getEmployeeId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private String getDepartment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

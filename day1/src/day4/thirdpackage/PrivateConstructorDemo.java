@@ -1,7 +1,6 @@
 package day4.thirdpackage;
 
 public class PrivateConstructorDemo {
-	public class PrivateConstructorDemo {
 		public static void main(String s[]) {
 			// Can't create object with private constructor
 			// MyClass m1=new MyClass();
@@ -16,4 +15,4 @@ public class PrivateConstructorDemo {
 			
 		}
 	}
-}
+

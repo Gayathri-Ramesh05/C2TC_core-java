@@ -1,8 +1,9 @@
+
 package day5.multilevelinheritance.texteditor;
 
 public class TextEditor {
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Word word = new Word();
 
 		word.write("Hello, ");

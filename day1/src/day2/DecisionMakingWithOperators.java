@@ -19,7 +19,8 @@ public class DecisionMakingWithOperators {
 		} else
 
 		{
-			System.out.println("Condition is FALSE");s
+			System.out.println("Condition is FALSE");
 	}
 
+}
 }

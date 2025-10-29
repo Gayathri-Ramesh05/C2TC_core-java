@@ -31,7 +31,7 @@ public class Student {
 		/*
 		 * super.name=name; super.city=city;
 		 */
-		super(name,city);
+		super();
 		this.clas = clas;
 		this.per = per;
 	}
@@ -40,5 +40,13 @@ public class Student {
 		return "Student [clas=" + clas + ", per=" + per + ", getName()=" + getName() + ", getCity()=" + getCity() + "]";
 
 }
+	private String getCity() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	private String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

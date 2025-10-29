@@ -2,9 +2,6 @@ package day3.scannerdemo;
 
 public class person {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//Data members
 		private String name;
 		private int income;
 		private String gender;

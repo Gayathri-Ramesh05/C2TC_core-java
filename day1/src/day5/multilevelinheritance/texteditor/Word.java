@@ -20,3 +20,58 @@ public class Word {
     public void enableSpellCheck(boolean enable) {
         spellCheckEnabled = enable;
 }
+
+	public void write(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void formatText(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void displayContent() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String isBold() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void write(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void formatText(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void write(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String isBold() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void displayContent() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void write(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void write(String string) {
+		// TODO Auto-generated method stub
+		
+	}

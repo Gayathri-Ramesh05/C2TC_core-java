@@ -1,7 +1,6 @@
 package day4.firstpackage;
 
 public class Executor {
-	public class Executor {
 		public static void main(String[] args) {
 			
 		//accessing same package class
@@ -31,5 +30,4 @@ public class Executor {
 			 * Incompatible types
 			 */	}
 
-	}s
 }

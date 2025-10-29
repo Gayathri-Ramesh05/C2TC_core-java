@@ -1,7 +1,6 @@
 package day4.thirdpackage;
 
 public class MyClass {
-	public class MyClass {
 		private static MyClass obj=new MyClass();
 		private int id;
 		
@@ -30,4 +29,4 @@ public class MyClass {
 		}
 		
 	}
-}
+

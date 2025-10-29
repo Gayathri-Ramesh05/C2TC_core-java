@@ -19,7 +19,7 @@ public class Employee {
 	
 	
 	public Employee(String name, String city,int empId, float salary, String dept) {
-		super(name,city);
+		super();
 		this.empId = empId;
 		this.salary = salary;
 		this.dept = dept;
@@ -63,5 +63,17 @@ public class Employee {
 
 	}
 
+
+	private String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	private String getCity() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
-}
+

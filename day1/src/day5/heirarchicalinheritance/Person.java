@@ -1,13 +1,17 @@
 package day5.heirarchicalinheritance;
 
 public class Person {
+	public Person(String string, String string2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Person p1 = new Person();
+		Person p1 = new Person(null, null);
 		System.out.println("----------------- Person Details ---------------------");
 		System.out.println(p1);
 
-		Person p;
+		Object p;
 		p = new Person("Dhruv", "Mumbai");
 		if (p instanceof Person)
 			System.out.println("Person Details "+p);
@@ -23,4 +27,4 @@ public class Person {
 	}
 
 }
-}
+
