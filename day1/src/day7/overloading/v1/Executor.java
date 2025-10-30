@@ -10,3 +10,4 @@ public class Executor {
 		System.out.println("Is RACECAR Palindrome? "+Operations.isPalindrome("RACECAR"));
 
 	}
+}
