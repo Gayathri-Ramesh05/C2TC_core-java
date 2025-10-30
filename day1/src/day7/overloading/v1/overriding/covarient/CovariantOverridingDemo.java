@@ -20,4 +20,5 @@ public class CovariantOverridingDemo {
 		 * student2.printData();
 		 */		
 		}
+	
 }
