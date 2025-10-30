@@ -27,4 +27,4 @@ public class CovariantOverriding {
 			Red r2 = r1.getColor();
 			System.out.println(r2);
 		}
-}
+	}
