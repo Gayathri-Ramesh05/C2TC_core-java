@@ -7,4 +7,9 @@ public class Operation {
 		return null;
 	}
 
+	public static String isPalindrome(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
