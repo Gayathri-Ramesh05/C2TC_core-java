@@ -4,13 +4,13 @@ public class Account {
 	private int accNo;
 	 private String name;
 	 private double balance;
-	 private Bank bank;
+	 private BankImpl bank;
 
-	 public Account(int accNo, String name, double balance, Bank bank) {
+	 public Account(int accNo, String name, double balance, BankImpl bank2) {
 	     this.accNo = accNo;
 	     this.name = name;
 	     this.balance = balance;
-	     this.bank = bank;
+	     this.bank = bank2;
 	 }
 
 	 public int getAccNo() {
@@ -34,5 +34,15 @@ public class Account {
 	 public double getBalance1() {
 		// TODO Auto-generated method stub
 		return 0;
+	 }
+
+	 public void deposit(int i) {
+		// TODO Auto-generated method stub
+		
+	 }
+
+	 public void withdraw(int i) {
+		// TODO Auto-generated method stub
+		
 	 }
 }

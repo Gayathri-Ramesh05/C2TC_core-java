@@ -3,7 +3,7 @@ package day8.interfaces.implementinginterfaces;
 public class BankApplication {
 	public static void main(String[] args) {
 	     // Create a Bank instance
-	     Bank bank = new BankImpl();
+	     BankImpl bank = new BankImpl();
 
 	     // Create an Account
 	     Account account = new Account(123456, "Mihir", 155000, bank);
