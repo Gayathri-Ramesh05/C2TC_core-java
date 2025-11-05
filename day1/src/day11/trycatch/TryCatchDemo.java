@@ -1,4 +1,4 @@
-package day10.trycatch;
+package day11.trycatch;
 
 public class TryCatchDemo {
 	public static void main(String[] args) {

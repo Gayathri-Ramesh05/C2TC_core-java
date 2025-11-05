@@ -1,7 +1,8 @@
-package day11.multiplecatch;
+package day11.v1;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-public class MultipleCtachDemo {
+
+public class MultipleCatchDemo {
 	public static void main(String[] args) {
 		System.out.println("I am in main method");
 		int numberOne, numberTwo, numberThree;
@@ -13,19 +14,19 @@ public class MultipleCtachDemo {
 				numberTwo = sc.nextInt();
 				numberThree = numberOne / numberTwo;
 				System.out.println("Division is " + numberThree);
-				break;
+				//break;
 			} catch (InputMismatchException e) {
 				// e.printStackTrace();
 				System.out.println("Invalid input. Please enter integers only.");
 				sc.nextLine();
 			} catch (ArithmeticException e) {
 				System.out.println("Exception caught: " + e.getMessage());
-				break;
+				//break;
 			} catch (Exception e) {
 				System.out.println("Exception caught: " + e.getMessage());
-				break;
+				//break;
 			}
 		}
-		sc.close();
+		//sc.close();
 	}
 }

@@ -1,4 +1,4 @@
-package day10.trycatch;
+package day11.trycatch;
 
 public class TryCatchExample {
 	static int performDivision(int x, int y) {
